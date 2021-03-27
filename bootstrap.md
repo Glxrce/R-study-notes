@@ -17,8 +17,8 @@ xxx = function(data,indices){
 --------
 ```
 library(boot)
-set.seed(1) > 因为我们要抽取样本了，如果不保存seed每次抽到的样本会不一样()
-result = boot(data=你要用的data, statistic = xxx, R = 1000) > 抽了1000次
+set.seed(1) # 因为我们要抽取样本了，如果不保存seed每次抽到的样本会不一样()
+result = boot(data=你要用的data, statistic = xxx, R = 1000) # 抽了1000次
 ```
 --------
 ```
